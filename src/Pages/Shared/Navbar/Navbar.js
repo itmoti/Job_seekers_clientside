@@ -5,8 +5,8 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-    <section>
-       <div className='flex justify-between  navbar-custom  h-96 text-white p-7'>
+    <section className='navbar-container  '>
+       <div className='flex justify-between navbar-custom     p-7'>
       <Link to={'/'} className='text-3xl font-bold hover:text-primary'>JobSeekers</Link>
       
       <div className=' flex justify-between w-1/3 ' >

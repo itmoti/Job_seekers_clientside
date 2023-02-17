@@ -1,13 +1,19 @@
-
-
 .routes:hover {
     color: #ffa400;
-    
+
 }
-.navbar-custom {
-    background-image: url("../../../images/navBackground.jpg");
+
+.navbar-container {
+    /* background-image: url("../../../images/navBackground.jpg");
     background-size: cover;
+     */
+    position: sticky;
+    display: block;
+    width: 100%;
+    padding: 10px 8px 10px 8px;
+
 }
 
-
-
+.navbar-custom {
+    position: sticky
+}
