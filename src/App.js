@@ -6,7 +6,7 @@ import Router from './Routes/PublicRouter';
 
 function App() {
   return (
-    <div className="max-w-[1440px] px-3 mx-auto">
+    <div className="max-w-[1440px] px-3 mx-auto bg-slate-100">
    <RouterProvider router={Router}>
    
       </RouterProvider>
