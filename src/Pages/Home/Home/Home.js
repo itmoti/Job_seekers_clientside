@@ -12,7 +12,7 @@ const Home = () => {
         
         <div className='flex justify-center flex-col'>
            <div className='mb-0 '>
-           <button onClick={()=>setJobSeekers(true)} className={`mr-1 p-3 text-white   bg-[#FFA400] hover:bg-white hover:text-black  ${jobSeekers && 'bg-[#ffffff] text-[#000000]'}`}>Find a Job</button>
+           <button onClick={()=>setJobSeekers(true)} className={`mr-1 p-3 text-white   bg-[#FFA400] hover:bg-white hover:text-black  ${jobSeekers && 'bg-[#ffffff] \text-[#000000]'}`}>Find a Job</button>
            <button onClick={()=>setJobSeekers(false)} className={` p-3 text-white   bg-[#FFA400] hover:bg-white hover:text-black  ${!jobSeekers && 'bg-[#ffffff] text-[#000000]'}`}>Find a Candidate</button>
            </div>
            <br></br>
